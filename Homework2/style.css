@@ -1,0 +1,117 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.main_box{
+    /* position: relative;
+    z-index: 5; */
+    width: 100%;
+    height: 670px;
+}
+.margin_box{
+    /* position: relative;
+    z-index: 2; */
+    width: 550px;
+    height: 250px;
+    border: 2px dashed;
+} 
+.border_box{
+    /* position: absolute;
+    z-index: 9999; */
+    background-color: rgb(187, 184, 184);
+    width: 500px;
+    height: 200px;
+    border: 2px solid;
+}
+.padding_box{
+    /* position: relative;
+    z-index: 4; */
+    width: 450px;
+    height: 150px;
+    border: 2px solid;
+    z-index: 100;
+    background-color: white;
+
+}
+.center_box{
+    /* position: relative;
+    z-index: 1; */
+    width: 400px;
+    height: 100px;
+    border: 2px solid;
+    background-color: white;
+    
+    
+}
+
+
+
+
+p{
+    position: absolute;
+}
+/* 
+Стилі для розміщення тексту
+*/
+
+/* 
+Margin box
+*/
+.headline_text_margin{
+    margin: 0 475px 225px 0;
+}
+.top_text_margin{
+    margin: 0 0 225px 0;
+}
+.right_text_margin{
+    margin: 0 0 0 525px;
+}
+.bottom_text_margin{
+    margin: 225px 0 0 0;
+}
+.left_text_margin{
+    margin: 0 525px 0 0;
+}
+
+/* 
+Border box
+*/
+.headline_text_border{
+    margin: 0 425px 175px 0;
+
+}
+.top_text_border{
+    margin: 0 0 175px 0;
+}
+.right_text_border{
+    margin: 0 0 0 475px;
+}
+.bottom_text_border{
+    margin: 175px 0 0 0;
+}
+.left_text_border{
+    margin: 0 475px 0 0;
+}
+
+/* 
+Padding box
+*/
+.headline_text_padding{
+    margin: 0 370px 125px 0;
+}
+.top_text_padding{
+    margin: 0 0 125px 0;
+}
+.right_text_padding{
+    margin: 0 0 0 425px;
+}
+.bottom_text_padding{
+    margin: 125px 0 0 0;
+}
+.left_text_padding{
+    margin: 0 425px 0 0;
+}
+
+
