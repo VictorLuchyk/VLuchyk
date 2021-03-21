@@ -1,0 +1,21 @@
+a{
+    background-color: cadetblue;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    transition: font-size 2s, color 2s;
+    width: 7em;
+    text-align: center;
+    border-radius: 1em ;
+
+}
+a:hover{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    
+}
+.btn{
+    align-self: flex-end;
+}
+    
